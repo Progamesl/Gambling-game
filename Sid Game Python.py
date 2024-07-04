@@ -5,7 +5,7 @@ def roll_dice():
     return random.randint(1, 6)
 
 def main():
-    print("Welcome to the Dice Gambling Game!")
+    print("Welcome to this Dice Gambling Game!")
     print("You have $100. Each round costs $10 to play.")
     print("If you guess the dice roll correctly, you win $50.")
     
@@ -39,7 +39,7 @@ def main():
         else:
             print("Sorry, you lost this round.")
     
-    print("\nGame Over.")
+    print("\nGame Over. Made by Sid Shukla.")
     print(f"Final Balance: ${money}")
 
 if __name__ == "__main__":
